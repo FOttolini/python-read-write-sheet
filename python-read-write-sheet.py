@@ -3,7 +3,7 @@ import smartsheet
 import logging
 import os
 
-_dir = os.path.dirname(os.path.abspath(__file__))
+_dir = os.path.dirname(os.path.abspath('__file__'))
 
 # The API identifies columns by Id, but it's more convenient to refer to column names. Store a map here
 column_map = {}
